@@ -1,0 +1,53 @@
+.page {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  min-width: 1440px;
+}
+
+div {
+  border: 1px solid red;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 800px;
+  /* height: 550px; */
+  border-radius: 7px;
+}
+
+.header {
+  padding-left: 30px;
+  background-color: #fff;
+  height: 225px;
+}
+
+.header__title {
+  margin: 0;
+  padding: 35px 0 25px;
+  color: hsl(179, 62%, 43%);
+}
+
+.header__subtitle {
+  margin: 0;
+  padding: 0 0 15px;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.header__text {
+  margin: 0;
+  padding: 0 0 5px;
+  color: hsl(218, 22%, 67%);
+}
+
+.flex-row {
+  display: flex;
+}
+
+.pricing-column {
+  width: 50%;
+}
+
+.features-column {
+  width: 50%;
+}
